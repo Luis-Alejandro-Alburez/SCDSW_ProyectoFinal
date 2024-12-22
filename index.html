@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subir Imágenes a S3</title>
+    <style>
+      /* Puedes añadir tus estilos aquí */
+    </style>
+  </head>
+  <body>
+    <h1>Sube tu imagen</h1>
+    <form id="upload-form">
+      <input type="file" id="file-input" accept="image/*" required />
+      <button type="submit">Subir imagen</button>
+    </form>
+
+    <h2>Imágenes Subidas:</h2>
+    <div id="image-gallery"></div>
+
+    <!-- <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1272.0.min.js"></script> -->
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1386.0.min.js"></script>
+    <script src="code.js"></script>
+  </body>
+</html>
